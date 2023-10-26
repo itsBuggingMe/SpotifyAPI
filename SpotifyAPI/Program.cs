@@ -7,6 +7,8 @@ namespace SpotifyAPI
     {
         static void Main()
         {
+            //Docs for SpotifyAPI.Web https://johnnycrazy.github.io/SpotifyAPI-NET/docs/introduction
+
             SpotifyClient client = new SpotifyClient(YourAPIKey.API_KEY);
 
             GetTrack(client, (v) =>
